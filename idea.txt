@@ -1,0 +1,3 @@
+try to create an end to end app where you can 
+put in the location and predict the weather using
+the historical data which will be fetched in real time
