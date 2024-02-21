@@ -2,3 +2,5 @@ train test split
 using box plots for eda
 increase the dataset size 
 document all the code properly
+try geopy for getting the location automatically
+find a way to guess a correct start date
