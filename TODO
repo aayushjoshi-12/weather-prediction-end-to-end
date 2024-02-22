@@ -4,3 +4,6 @@ increase the dataset size
 document all the code properly
 try geopy for getting the location automatically
 find a way to guess a correct start date
+use sklearn's time series split
+try to use lag features and find if they are needed or not
+model selection

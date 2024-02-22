@@ -3,8 +3,8 @@ from datetime import datetime
 
 def create_features(df : pd.DataFrame) -> pd.DataFrame:
     """
-    Creates time series feature from datetime index such as hour, day, month, year.
-    args:
+    Creates time series feature from datetime index such as hour, day, month, year.\n
+    Args:
     - df: pd.DataFrame
     """
     df = df.copy()
@@ -17,8 +17,8 @@ def create_features(df : pd.DataFrame) -> pd.DataFrame:
 
 def train_test_split(df, features, labels, test_size = 1) -> tuple:
     """
-    Splits the dataset into training and testing sets.
-    args:
+    Splits the dataset into training and testing sets.\n
+    Args:
     - df: pd.DataFrame
     - features: list
     - labels: list
